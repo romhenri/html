@@ -9,9 +9,31 @@ img {
     cursor: pointer;
 }
 
+.product {
+    transition-duration: 400ms;
+}
+
+.product:hover {
+    transform: scale(1.02);
+    transition-duration: 400ms;
+    scale: 120%;
+    transition-timing-function: ease-out;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('assets/Montserrat-Regular.ttf');
+    format:('truetype');
+  }
+
 h1 {
     text-align: center;
     margin: 50px;
+}
+
+h2 {
+    font-family: Montserrat;
+    color: aliceblue;
 }
 
 p {
@@ -102,7 +124,8 @@ section {
     text-align: center;
     align-items: center;
     margin: auto;
-    padding: 15px;
+    padding-bottom: 0px;
+    /* padding: 15px; */
     justify-content: space-around;
     align-items: center;
 
@@ -114,4 +137,15 @@ section {
 
 .womanModel {
     width: 500px;
+    margin-right: 40px;
 }
+
+.aboutText {
+    color: aliceblue;
+    font-size: 18px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/* .price {
+} */
