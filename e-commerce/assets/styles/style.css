@@ -1,0 +1,117 @@
+body, ul, li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.footerSpace {
+    color: #1d1e2073;
+}
+
+footer {
+    color: #1d1e2073;
+}   
+
+.header {
+    background-color: #1d1e20; /* Colors */
+    color: #f0f8ff;
+
+    display: flex;  /* Position */
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu li {
+    margin-left: 10px;
+    padding: 20px;
+
+    /* background-color: tomato; */
+}
+
+#logoName {
+    width: 30%;
+}
+
+#userIcon {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: tomato; */
+}
+
+#liU {
+    width:30px;
+    padding: 10px;
+    margin-right: 12px;
+    /* background-color: tomato; */
+}
+
+/* ___CSS FlexBox___ */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+}
+
+div > img {
+    max-width: 100%;
+}
+
+/* __Sections___*/
+
+section {
+    margin-bottom: 50px;
+}
+
+.about {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 80%;
+    border-radius: 15px;
+    background-color: #1d1e20;
+
+}
+
+.womanModel {
+    width: 500px;
+}
