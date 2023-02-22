@@ -1,5 +1,12 @@
-/*  */
+/*  
+INDEX:
 
+1. Global Elements
+2. Header
+3. Sections
+4. 
+
+*/
 
 * {
   margin: 0;
@@ -14,26 +21,25 @@ html {
   overflow-x: hidden;
 }
 
-main {
-  overflow-x: hidden;
+header {
+  background: #6d151c;
 }
 
-header {
-  background-image: linear-gradient(
-    #851922 1%,
-    #601412 99%
-  );
+section {
+  width: 60%;
+  margin: auto;
+  text-align: center;
 }
 
 a {
   color: #fff;
   text-decoration: none;
   transition: 0.3s;
-}
-
-a:hover {
+} a:hover {
   opacity: 0.7;
 }
+
+/* Header */
 
 #name {
   font-size: 16px;
@@ -46,16 +52,11 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background-image: linear-gradient(
-  45deg,
-  #B71F2C 50%
-  #601412 50%
-  );
   height: 8vh;
 }
 
 main {
-  background: url("bg.jpg") no-repeat center center;
+  background: url("bg-menu-digital-print.png") center center;
   background-size: cover;
   height: 92vh;
 }
@@ -93,10 +94,7 @@ main {
     right: 0;
     width: 50vw;
     height: 50vh;
-    background-color: #601412;
-    background-image: linear-gradient(
-    to bottom,#601412 50%, #511211
-  );
+    background: #6d151c;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -150,4 +148,56 @@ main {
 #logoName {
   display: flex;
   align-items: center;
+}
+
+/* Sections: Welcome */ 
+
+#welcomeSpace {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  background-color: #ab92674a;
+  border-radius: 15px;
+
+  padding: 25px;
+}
+
+/* Sections: SocialLinks */ 
+
+.socialLinks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socialLink {
+  background-color: tomato;
+  width: 30%;
+  border-radius: 6px;
+  padding: 5px;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+
+  cursor: pointer;
+} .socialLink:hover {
+  scale: 110%;
+}
+
+#linkInstagram {background-image: linear-gradient(
+  45deg,  
+  #f09433 0%,
+  #e6683c 25%,
+  #dc2743 50%,
+  #cc2366 75%,
+  #bc1888 100%
+);}
+#linkWhatsApp {background-color: #11BB19;}
+#linkPinterest {background-color: #af021c;}
+
+.icon {
+  width: 20px;
+  margin-right: 8px;
 }

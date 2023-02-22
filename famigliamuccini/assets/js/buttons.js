@@ -1,0 +1,17 @@
+function instagram() {
+    console.log('Usuário direcionado ao Instagram.');
+
+    window.open('https://www.instagram.com/famigliamuccini/');
+}
+
+function whastapp() {
+    console.log('Usuário direcionado ao WhatsApp.');
+
+    window.open('https://wa.me/5583988850719?text=Ol%C3%A1%2C+vim+do+site');
+}
+
+function pinterest() {
+    console.log('Usuário direcionado ao Pinterest.');
+
+    window.open('https://br.pinterest.com/famigliamucciniristorante/');
+}
