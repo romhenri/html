@@ -153,8 +153,6 @@ main {
 /* Sections: Welcome */ 
 
 #welcomeSpace {
-  width: 60%;
-  margin: auto;
   text-align: center;
   background-color: #ab92674a;
   border-radius: 15px;
@@ -182,6 +180,8 @@ main {
   transition: 0.3s;
 
   cursor: pointer;
+
+  overflow: hidden;
 } .socialLink:hover {
   scale: 110%;
 }
@@ -201,3 +201,35 @@ main {
   width: 20px;
   margin-right: 8px;
 }
+
+/* Media Queries */
+
+@media screen and (min-width: 761px) {
+  section {
+    width: 60%;
+    margin: auto;
+  }
+
+  p {
+   font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  section {
+    width: 80%;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 760px) {
+  section {
+    width: 90%;
+    margin: auto;
+  }
+
+  .socialLink p {
+    font-size: 12px;
+  }
+ }
