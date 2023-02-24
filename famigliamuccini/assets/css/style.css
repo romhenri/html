@@ -396,28 +396,30 @@ section {
   width: 33%;
 }
 
-
 /* Media Queries */
 
 /* A22= width: 320px */
 
-@media screen and (max-width: 1400px){
+@media (min-width: 880px) and (max-width: 1400px){
+  
+  section {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   #silvana {
     display: none;
   }
-  
-}
 
-@media screen and (min-width: 761px) {
-  
-}
-
-@media screen and (min-width: 761px) {
   section {
-    width: 60%;
+    width: 80%;
     margin: auto;
   }
+}
 
+@media screen and (min-width: 761px) {
   p {
    font-size: 24px;
   }
@@ -432,8 +434,6 @@ section {
     width: 80%;
     margin: auto;
   }
-
-  #silvana {display: none;}
 
   #meet h2 {font-size: 30px;}
 
@@ -460,6 +460,7 @@ section {
 
 @media screen and (min-width: 431px) {
   #linkLinkedinR {display: none;}
+  #linkFacebookR {display: none;}
 }
 
 @media screen and (max-width: 430px) {
@@ -478,4 +479,10 @@ section {
   #containerInfo .infoColumn h2 {
     font-size: 14px;
   }
+
+  /* ======================== */
+
+  #linkFacebook {display: none;}
+  #linkYT {display: none;}
+  #linkLinkedin {display: none;}
 }
