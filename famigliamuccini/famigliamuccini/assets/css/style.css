@@ -60,13 +60,13 @@ a {
 }
 
 @font-face {
-  font-family: Catamaran;
-  src: local(Catamaran), url('assets/fonts/Catamaran.ttf');
+  font-family: catamaran;
+  src: local(catamaran), url('assets/fonts/Catamaran.ttf');
 }
 
 @font-face {
-  font-family: Lora;
-  src: local(Lora), url('assets/fonts/Lora.ttf');
+  font-family: lora;
+  src: local(lora), url('assets/fonts/Lora.ttf');
 }
 
 @font-face {
@@ -441,9 +441,7 @@ section {
 
   #meet h2 {margin-top: 0px;
     position: relative; 
-    top: 10px;
-    font-family: Delinda Agatha;}
-    
+    top: 10px;}
 }
 
 @media (min-width: 880px) and (max-width: 1400px){
@@ -483,10 +481,7 @@ section {
     margin: auto;
   }
 
-  #meet h2 {
-    font-size: 30px;
-    font-family: Delinda Agatha;
-  }
+  #meet h2 {font-size: 30px;}
 
   #meet p {
     text-align: left;
