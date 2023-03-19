@@ -1,5 +1,6 @@
 * {
   transition: 0.3s;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -13,30 +14,39 @@ h1, header nav {
 }
 
 header p {
-  margin-top: 10px;
+  max-width: 80%;
+  margin: 10px auto;
 }
 
 nav {
   padding-bottom: 15px;
+  width: 100%;
 }
 
 ul {
+  text-align: center;
+  width: 100%;
   display: flex;
   gap: 20px;
   justify-content: space-around;
   list-style: none;
-  font-size: 1em;
   font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  padding-block-start: 0px;
+  padding-left: 0px;
+}
+
+nav ul li {
+  font-size: 1em;
 }
 
 a {
+  font-size: 1em;
   text-decoration: none;
-  color: #ffffffb7;
+  color: #fff;
 }
 
 a:hover {
-  color: #fff;
-  scale: 110%;
+  color: #ffffff70;
 }
 
 img {
@@ -57,9 +67,40 @@ h2 {
   margin-bottom: 10px;
 }
 
-p {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+main section p {
   font-size: 1em;
   text-indent: 30px;
   line-height: 25px;
+}
+
+#extra {
+  border-radius: 15px;
+  background-color: rgb(68, 114, 0);
+  padding-bottom: 20px;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+#extra p {
+  margin: 0px 20px;
+}
+
+#extra h4 {
+  background-color: rgb(52, 87, 0);
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+ol {
+  margin: 20px 0px;
+  list-style: none;
+  text-align: start;
+}
+
+footer {
+  margin: 20px;
+}
+
+footer a {
+  font-size: 1em !important;
 }

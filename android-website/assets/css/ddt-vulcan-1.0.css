@@ -105,45 +105,6 @@ footer a:hover {
     scale: 90%;
 }
 
-/* === 4. Textos ============================================ */
-
-.f1 {
-    font-size: 1px
-}
-
-.f2 {
-    font-size: 2px
-}
-
-.f3 {
-    font-size: 3px
-}
-
-h1 {
-    font-size: 24px;
-    font-weight: normal;
-}
-
-p {
-    font-size: 12px;
-    font-weight: normal;
-}
-
-a, footer {
-    font-size: 10px;
-    font-weight: normal;
-}
-
-.txt {
-    font-size: 12px;
-    font-weight: normal;
-}
-
-.txt-min {
-    font-size: 10px;
-    font-weight: normal;
-}
-
 /* === 5. Design Details Pack ============================================ */
 
 /* === 5.1 Largura e Altura ============================================ */
