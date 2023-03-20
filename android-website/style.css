@@ -9,8 +9,8 @@ header {
       rgb(2, 82, 2));
 }
 
-h1, header nav {
-  padding-top: 20px;
+h1, header {
+  padding-top: 15px;
 }
 
 header p {
@@ -21,6 +21,7 @@ header p {
 nav {
   padding-bottom: 15px;
   width: 100%;
+  padding-top: 10px;
 }
 
 ul {
@@ -43,10 +44,13 @@ a {
   font-size: 1em;
   text-decoration: none;
   color: #fff;
+  padding: 5px 10px;
 }
 
-a:hover {
-  color: #ffffff70;
+nav a:hover {
+  background-color: green;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.100);
 }
 
 img {
@@ -103,4 +107,15 @@ footer {
 
 footer a {
   font-size: 1em !important;
+}
+
+iframe {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.img-b {
+  width: 300px;
+  max-height: 300px;
+  margin-left: auto;
 }
