@@ -9,6 +9,7 @@ body {
   justify-content: center;
   margin: auto auto;
   margin-top: 150px;
+  width: 100vw;
 }
 
 h2 {
@@ -91,6 +92,6 @@ footer, footer a {
 
 @media (max-width: 500px) {
   section {
-    max-width: 90%;
+    max-width: 90% !important;
   }
 }
