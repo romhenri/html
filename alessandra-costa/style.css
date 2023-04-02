@@ -57,6 +57,11 @@ section {
   border: 2px solid #ffffff5d;
 }
 
+#picture img:active {
+  scale: 90%;
+  transition: 0.3s;
+}
+
 #forAca {
   cursor: pointer;
 }
@@ -70,6 +75,11 @@ section {
   color: #fff;
 }
 
+section div p {
+  padding: 0px 30px;
+  text-justify: distribute;
+}
+
 footer, footer a {
   margin-top: 20px;
   font-size: 12px;
@@ -77,4 +87,10 @@ footer, footer a {
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   color: #ffffff85;
+}
+
+@media (max-width: 500px) {
+  section {
+    max-width: 90%;
+  }
 }
