@@ -999,7 +999,7 @@ h6 {
 }
 
 .services .service-item:hover:before {
-  background-image: linear-gradient(45deg, rgb(100, 61, 219) 0%, rgb(217, 21, 239) 100%);
+  background-image: linear-gradient(45deg, #643ddb 0%, #d915ef 100%);
   right: 0;
   top: 0;
   width: 100%;
@@ -1277,7 +1277,8 @@ h6 {
 
 .footer .copyright {
   text-align: center;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(177, 177, 177, 0.8);
+  font-size: 12px;
 }
 
 .footer .credits {
@@ -1288,5 +1289,6 @@ h6 {
 }
 
 .footer .credits a {
-  color: var(--color-primary);
+  color: #fff;
+  font-size: 14px;
 }
