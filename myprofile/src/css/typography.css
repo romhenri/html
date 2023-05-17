@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+main section h3 {
+	font-family: 'Poppins', Arial, Helvetica, sans-serif;
+	margin: 0 0 10px 0;
+}
+
+main section {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell;
+}
+
+main section ul {
+	list-style: none;
+	text-indent: 10px;
+	;
+}
+
+main section ul li {
+	margin: 10px 0;
+}
+
+main section ul li::before {
+	content: '- ';
+	font-weight: bold;
+}
+
+main section ul li::after {
+	content: ';';
+}
+
+main section ul li:last-child:after {
+	content: '.';
+}
